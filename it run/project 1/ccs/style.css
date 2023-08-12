@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: yellow;
+    font-style: italic;
+    transition: 0,50s;
+  }
+  p{
+    text-align: center;
+  }
+  body{
+    background-color:black;
+  }
+  p{
+    text-align: center;
+    font-size: 50px;
+    color:yellow;
+    font-style: italic;
+  }
+  div{
+  background:url("https://phonoteka.org/uploads/posts/2021-04/thumbs/1617833751_2-p-anime-fon-tyan-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 500px;
+}
+  *{
+    margin: 0;
+  }
+h1:hover{
+    color:chartreuse;
+    font-size:50px;
+    transition: 0,50s;
+    cursor:pointer;
+}

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.blue-block{
+    width: 1138px;
+    background: #DDEEFE;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 88px;
+    margin: 0 auto;
+}
+
+.blud-block-card{
+    display: flex;
+    gap: 24px;
+}
+
+
+
+.black_text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #222222;
+}
+
+.blue-text{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+
+    color: #086CF9;
+}
+.fon-block{
+    background-image: url('../images/pexels-monstera-6238005\ 1.jpg');
+    width: 595px;
+    height: 433px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

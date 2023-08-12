@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100Vh;
+  background: url(../images/fon.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wrapper .container {
+  width: 380px;
+  height: 430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #C0C0C0;
+  border-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 4px white solid;
+}
+.wrapper .container .sigin_in {
+  width: 200px;
+  height: 50px;
+  background-color: #00BFFF;
+  position: absolute;
+  margin-top: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.wrapper .container .icon {
+  margin-top: 40px;
+  height: 100px;
+}
+.wrapper .container .user_name {
+  margin-top: 20px;
+  height: 50px;
+  width: 300px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 15px;
+}
+.wrapper .container .user_name .human_icon {
+  border-right: 2px black solid;
+}
+.wrapper .container .user_name input#username {
+  border: none;
+  font-size: 20px;
+  height: 30px;
+}
+.wrapper .container .password_white {
+  margin-top: 20px;
+  height: 50px;
+  width: 300px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 15px;
+}
+.wrapper .container .password_white .lock_icon {
+  border-right: 2px black solid;
+}
+.wrapper .container .password_white input#password {
+  border: none;
+  font-size: 20px;
+  height: 30px;
+}
+.wrapper .container .check_box {
+  padding-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 70px;
+  font-size: 14px;
+}
+.wrapper .container .button_login {
+  margin-top: 30px;
+  width: 300px;
+  height: 50px;
+  background-color: #00BFFF;
+  border: none;
+  color: white;
+  font-size: 30px;
+}

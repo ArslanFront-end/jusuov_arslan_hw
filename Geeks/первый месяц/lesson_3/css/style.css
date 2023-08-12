@@ -1,0 +1,48 @@
+.one{
+    width: 500px;
+    background-color: yellow;
+    margin: 20px auto;
+    border: 1px solid #be1313;
+    padding: 20px;
+    }
+   *{
+    box-sizing: border-box;
+   }
+   html{
+    font-style: 14px;
+   }
+   .parent{
+    font-size: 20px;
+   }
+   .rel{
+    /* top:auto
+    right:auto
+    bottom:auto;
+    left:auto */
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #bb2929;
+   }
+   .pos{
+    position:absolute;
+    width: 250px;
+    height: 250px;
+    background-color:chartreuse;
+    top: 20px;
+    left:20px;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+   }
+   .pos1 {
+    position:;
+    width: 250px;
+    height: 250px;
+    background-color:rgb(231, 239, 3);
+    top: 20px;
+    left:20px;
+    width: 250px;
+    height: 250px
+   }

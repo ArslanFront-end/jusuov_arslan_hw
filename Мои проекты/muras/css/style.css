@@ -1,0 +1,17 @@
+.header {
+  width: 1920px;
+  height: 120px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.main {
+  background: url(../images/main/bg.png);
+  width: 1180px;
+  height: 1000px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}

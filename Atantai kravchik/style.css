@@ -1,0 +1,38 @@
+body{
+    background: #000;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+.main_grid{
+    background-color: aqua;
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+.grid_1{
+    background-color: rgb(220, 58, 58);
+    width: 95%;
+    height: 95%;
+    border-radius: 20px;
+}
+.grid_2{
+    background-color: rgb(68, 70, 132);
+    width: 95%;
+    height: 95%;
+}
+.grid_3{
+    background-color: rgb(58, 220, 66);
+    width: 95%;
+    height: 95%;
+}
+.grid_4{
+    background-color: rgb(249, 244, 246);
+    width: 95%;
+    height: 95%;
+}

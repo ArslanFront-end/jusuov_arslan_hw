@@ -1,0 +1,278 @@
+.hero 
+    background: linear-gradient(180deg, rgba(214, 218, 228, 0) 0%, rgba(214, 218, 228, 0.2) 100%)
+    &__inner 
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        align-items: center
+        align-content: space-between
+        /*min-height: 100vh*/
+        padding-top: 20px
+        padding-bottom: 55px
+        .left 
+            flex: 0 1 700px
+            ul 
+                gap: 25px
+            &>p 
+                width: 580px
+                margin-bottom: 50px
+                font-size: 18px
+                line-height: 24px
+        .right 
+            flex: 0 0 495px
+
+            img 
+                display: block
+                width: 100%
+        .bottom 
+            flex: 1 1 auto
+            text-align: center
+            margin-top: 30px
+            ul 
+                list-style-type: none
+                gap: 50px
+                align-items: center
+                justify-content: center
+            p 
+                margin-bottom: 20px
+                font-weight: 500
+                font-size: 18px
+                line-height: 21px
+                color: #9CA0AC
+                text-transform: uppercase
+        ul 
+            margin-top: 20px
+            display: flex
+            li:first-child 
+                list-style-type: none
+        h1 
+            font-weight: 900
+            font-size: 56px
+            line-height: 60px
+            margin-bottom: 27px
+
+.about 
+    padding: 160px 0 160px
+    &_inner 
+        display: flex
+        gap: 37px
+
+        &_item_1 img 
+            border-radius: 10px
+            box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25)
+        .block_last 
+            flex: 0 1 320px
+            height: 70px
+            background-color: #F4F6FA
+            border-radius: 5px
+            align-items: center
+            display: flex
+            padding: 15px
+            gap: 15px
+            span 
+                font-weight: 500
+                font-size: 20px
+                line-height: 20px
+                display: flex
+                align-items: center
+                text-align: center
+                color: #0066FF
+
+        .block 
+            align-items: center
+            display: flex
+            gap: 15px
+            margin-bottom: 10px
+            height: 70px
+            padding: 15px
+            span 
+                font-weight: 500
+                font-size: 20px
+                line-height: 20px
+                display: flex
+                align-items: center
+                text-align: center
+                color: #9CA0AC
+
+
+.benefits 
+    background: #EEF1F7
+    padding-top: 100px
+    padding-bottom: 100px
+    &_text 
+        width: 781px
+        text-align: center
+        margin: 0 auto 70px
+        p 
+            color: #000
+            text-align: center
+            font-size: 20px
+            font-family: Roboto
+            line-height: 30px
+            margin-top: 20px
+    &_cards 
+        display: flex
+        justify-content: space-between
+        flex-wrap: nowrap
+        gap: 20px
+        .benefits_card 
+            width: 230px
+            height: 182px
+            padding: 30px
+            border-radius: 10px
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            gap: 20px
+            background: #ffffff
+        .card_description 
+            text-align: center
+            span 
+                font-style: normal
+                font-weight: 700
+                font-size: 22px
+                line-height: 26px
+            p 
+                font-style: normal
+                font-weight: 400
+                font-size: 20px
+                line-height: 26px
+
+.features_inner 
+    margin: 150px auto
+    width: 970px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    gap: 50px
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 21px
+    color: #000000
+    .features_cards 
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        gap: 20px
+    .feature_card 
+        width: 310px
+        height: 246px
+        border-radius: 10px
+        padding: 22px
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        box-shadow: 0px 0px 10px rgba(156, 160, 172, 0.4)
+        &_image 
+            width: 50px
+            height: 50px
+            padding: 11px
+            border-radius: 3.75px
+            background: #06F
+            img 
+                width: 100%
+        span 
+            font-style: normal
+            font-weight: 900
+            font-size: 22px
+            line-height: 26px
+            color: #000000
+            margin-top: 20px
+        p 
+            font-style: normal
+            font-weight: 400
+            font-size: 18px
+            line-height: 24px
+            color: #000000
+            margin-top: 10px
+
+.create 
+    background: #EEF1F7
+    padding-top: 51px
+    padding-bottom: 51px
+    &_inner 
+        display: flex
+        gap: 77px
+        align-items: center
+        .create_images 
+            display: flex
+            flex-direction: row
+            align-items: center
+            padding: 0px
+            gap: 10px
+            &>div 
+                width: 270px
+                display: flex
+                justify-content: center
+                align-items: center
+                overflow: hidden
+                border-radius: 10px
+                img 
+                    width: 110%
+        .create_info 
+            display: flex
+            flex-direction: column
+            gap: 50px
+            height: 316px
+            .info_block1 
+                width: 593px
+                p 
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 18px
+                    line-height: 24px
+                    color: #000000
+                    margin-top: 20px
+
+            .info_block2 ul 
+                list-style-position: inside
+                padding: 0
+                display: flex
+                gap: 10px
+                margin-top: 20px
+                li 
+                    font-weight: 400
+                    font-size: 14px
+                    line-height: 16px
+                    color: #000000
+                    &:first-child 
+                    list-style-type: none
+
+.stories 
+    padding: 150px 0
+    h2
+        margin: 10px auto 0
+        width: 639px
+        text-align: center
+    &__block
+        display: flex
+        align-items: center
+        justify-content: space-between
+        &-image
+            width: 490px
+
+        .info
+            display: flex
+            flex-direction: column
+            gap: 30px
+            &__icon
+                width: 150px
+                display: flex
+                align-items: center
+                padding: 10px 8px
+                gap: 10px
+                border-radius: 3px
+                background: #E8DDFF
+                img
+                    width: 15px
+                span
+                    background: #682EE6
+                    font-size: 14px
+                    font-weight: 500
+
+    
+
+            

@@ -1,0 +1,12 @@
+.first__screen {
+  width: 1920px;
+  height: 1571px;
+  background-image: url(../images/first/fon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.first__screen .header__first {
+  width: 1432px;
+  height: 56px;
+  background-color: red;
+}

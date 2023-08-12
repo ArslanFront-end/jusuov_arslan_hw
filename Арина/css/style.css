@@ -1,0 +1,24 @@
+body{
+    background-image: url(planety_galaktika_zvezdy_146448_3840x2160.jpeg);
+    background-size: cover;
+    
+}
+.screen{
+    position: relative;
+    height:100vh;
+    font-style: italic;
+    font-size: 60px;
+}
+.logo{
+    font-size:medium;
+    margin: 170px auto;
+    height: 500px;
+    width: 300px;
+    background-image: url(img3.akspic.ru-chernye_volosy_devushka_art-cifrovoe_iskusstvo-art-cifrovaya_zhivopis-risovanie-1125x2436.jpg);
+    background-size:cover;
+}
+.nero{
+    margin: 170px auto;
+    position: center;
+    margin-left: center;
+}

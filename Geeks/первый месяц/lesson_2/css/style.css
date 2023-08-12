@@ -1,0 +1,21 @@
+#one{
+    color:green;
+}
+.one{
+    color:blueviolet;
+}
+div{
+    color:red;
+    /* color:red; */
+    /* color: rgb(82, 32, 32); */
+    /* color: rgba(red, green, blue, alpha) */
+}
+div{
+    color: rgb(216, 1, 1), i !important;
+
+}
+p{
+    width: 500px;
+    text-align: justify;
+    line-height: 30px;;
+}
